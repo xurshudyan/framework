@@ -22,7 +22,7 @@ class Container implements ArrayAccess, ContainerContract
     /**
      * The current globally available container (if any).
      *
-     * @var static
+     * @var static|null
      */
     protected static $instance;
 
